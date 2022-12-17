@@ -17,11 +17,11 @@ const Project = ({ idx, name, imgs, description, techs }: Props) => {
   return (
     <div style={{ overflow: 'hidden', paddingTop: '40px' }}>
       <SectionWrapper ref={sectionRef}>
-        <Slide timeout={700} direction={idx % 2 === 0 ? 'right' : 'left'} in={idx === 0 ? true : isVisible}>
+        <Slide timeout={550} direction={idx % 2 === 0 ? 'right' : 'left'} in={idx === 0 ? true : isVisible}>
           <Section>
             <div className="content-container">
               <SectionHeader>
-                <h1> {name}</h1>
+                <h1> {name}+!</h1>
                 <Techs>
                   {techs.map((tech) => (
                     <TechLogo tech={tech} />
@@ -74,6 +74,8 @@ const Techs = styled.div`
 `;
 
 const SectionWrapper = styled.div`
+  width: 90%;
+  margin: auto;
   display: flex;
   justify-content: center;
 `;

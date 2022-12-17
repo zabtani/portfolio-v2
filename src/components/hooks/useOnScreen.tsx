@@ -15,7 +15,7 @@ const useOnScrren = (ref: React.RefObject<Element>) => {
       if (position.top < window.innerHeight && position.bottom >= 0) {
         setIsElementVisible(true);
       } else {
-        if (isElementVisible) setIsElementVisible(false);
+        // if (isElementVisible) setIsElementVisible(false);
       }
     };
 

@@ -4,7 +4,7 @@ import { PROJECTS } from './data';
 
 const Projects = () => {
   return (
-    <div style={{ overflow: 'hidden', paddingTop: '60px' }}>
+    <div style={{ paddingTop: '60px' }}>
       {PROJECTS.map((props, idx) => (
         <Project idx={idx} {...props} />
       ))}
