@@ -1,0 +1,121 @@
+import { Slide } from '@mui/material';
+import { useEffect, useRef, useState } from 'react';
+import styled from 'styled-components';
+
+import Slider from '../components/Slider';
+
+const Porojects = () => {
+  const section1Ref = useRef<HTMLDivElement>(null);
+  const section2Ref = useRef<HTMLDivElement>(null);
+  const section3Ref = useRef<HTMLDivElement>(null);
+  const is2Visible = useOnScrren(section2Ref);
+  const is3Visible = useOnScrren(section3Ref);
+
+  return (
+    <div style={{ overflow: 'hidden', paddingTop: '60px' }}>
+      <SectionWrapper ref={section1Ref}>
+        <HomepageSection shown={true} title="Just a title." content={<Slider />} bgColor="#251B37" />
+      </SectionWrapper>
+      <SectionWrapper ref={section2Ref}>
+        <HomepageSection
+          animationSide="right"
+          shown={is2Visible}
+          title="Another title my frined."
+          content={<Slider resoultionsSlideCount={{ desktop: 2, mobile: 1 }} />}
+          bgColor="#47B5FF"
+        />
+      </SectionWrapper>
+      <SectionWrapper ref={section3Ref}>
+        <HomepageSection
+          shown={is3Visible}
+          title="Guess what - cool title."
+          content="cool and beautiful content"
+          bgColor="#010304"
+        />
+      </SectionWrapper>
+    </div>
+  );
+};
+
+export default Porojects;
+
+interface HomepageSectionProps {
+  bgColor: string;
+  title: string;
+  content: string | JSX.Element;
+  shown: boolean;
+  animationSide?: 'right' | 'left';
+}
+
+const SectionWrapper = styled.div`
+  margin: 3% auto 3% auto;
+  height: 80vh;
+  width: 101%;
+  display: flex;
+  justify-content: center;
+`;
+const HomepageSection = ({
+  bgColor,
+  title,
+  content,
+  shown,
+  animationSide = 'left',
+}: HomepageSectionProps) => (
+  <Slide timeout={1200} direction={animationSide} in={shown}>
+    <Section bgColor={bgColor}>
+      <div className="content-container">
+        <h1> {title}</h1>
+        <div>{content}</div>
+      </div>
+    </Section>
+  </Slide>
+);
+
+const Section = styled.div<{ bgColor: string }>`
+  color: white;
+  height: 80vh;
+  width: 90vw;
+  background-color: ${({ bgColor }) => bgColor};
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  .content-container {
+    margin: auto;
+    padding: 0 1% 7% 1%;
+    width: 95%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+`;
+
+const useOnScrren = (ref: React.RefObject<Element>) => {
+  const [isElementVisible, setIsElementVisible] = useState(false);
+
+  useEffect(() => {
+    const onScroll = () => {
+      const topPage = window.pageYOffset == 0;
+      if (topPage) {
+        setIsElementVisible(false);
+        return;
+      }
+      const position = ref.current?.getBoundingClientRect();
+      if (!position) return;
+      if (position.top < window.innerHeight && position.bottom >= 0) {
+        setIsElementVisible(true);
+      } else {
+        if (isElementVisible) setIsElementVisible(false);
+      }
+    };
+
+    window.addEventListener('touchmove', onScroll);
+    window.addEventListener('scroll', onScroll);
+
+    return () => {
+      window.removeEventListener('touchmove', onScroll);
+      window.removeEventListener('scroll', onScroll);
+    };
+  }, []);
+  return isElementVisible;
+};
