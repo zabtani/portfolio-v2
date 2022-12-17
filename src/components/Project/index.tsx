@@ -1,4 +1,4 @@
-import { Slide } from '@mui/material';
+import { Fade } from '@mui/material';
 import TechLogo from 'components/TechLogo';
 import { useRef } from 'react';
 import styled from 'styled-components';
@@ -17,12 +17,7 @@ const Project = ({ idx, name, imgs, description, techs }: Props) => {
   return (
     <div style={{ overflow: 'hidden', paddingTop: '40px' }}>
       <SectionWrapper ref={sectionRef}>
-        <Slide
-          timeout={500}
-          direction={idx % 2 === 0 ? 'right' : 'left'}
-          key={idx}
-          in={idx === 0 ? true : isVisible}
-        >
+        <Fade timeout={1500} key={idx} in={idx === 0 ? true : isVisible}>
           <Section>
             <div className="content-container">
               <SectionHeader>
@@ -40,7 +35,7 @@ const Project = ({ idx, name, imgs, description, techs }: Props) => {
               <Slider imgs={imgs} resoultionsSlideCount={{ desktop: 2, mobile: 1 }} />
             </div>
           </Section>
-        </Slide>
+        </Fade>
       </SectionWrapper>
     </div>
   );
