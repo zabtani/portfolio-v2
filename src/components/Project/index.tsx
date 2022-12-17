@@ -17,7 +17,12 @@ const Project = ({ idx, name, imgs, description, techs }: Props) => {
   return (
     <div style={{ overflow: 'hidden', paddingTop: '40px' }}>
       <SectionWrapper ref={sectionRef}>
-        <Slide timeout={550} direction={idx % 2 === 0 ? 'right' : 'left'} in={idx === 0 ? true : isVisible}>
+        <Slide
+          timeout={500}
+          direction={idx % 2 === 0 ? 'right' : 'left'}
+          key={idx}
+          in={idx === 0 ? true : isVisible}
+        >
           <Section>
             <div className="content-container">
               <SectionHeader>
