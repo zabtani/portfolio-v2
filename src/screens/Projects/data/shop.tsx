@@ -2,6 +2,7 @@ import { Features, Techs } from 'enums';
 import shop1 from 'assets/images/shop1.jpg';
 import shop2 from 'assets/images/shop2.jpg';
 import shop3 from 'assets/images/shop3.jpg';
+import React from 'react';
 
 export const shop = {
   name: 'Shop',

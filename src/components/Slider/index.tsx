@@ -31,12 +31,12 @@ const Slider = ({ imgs, resoultionsSlideCount = { desktop: 3, mobile: 2 } }: Pro
       >
         {imgs?.length ? (
           imgs.map((img) => (
-            <SwiperSlide>
+            <SwiperSlide key={img}>
               <img src={img} />
             </SwiperSlide>
           ))
         ) : (
-          <>
+          <div key={'s'}>
             <SwiperSlide>Slide 1</SwiperSlide>
             <SwiperSlide>Slide 2</SwiperSlide>
             <SwiperSlide>Slide 3</SwiperSlide>
@@ -45,7 +45,7 @@ const Slider = ({ imgs, resoultionsSlideCount = { desktop: 3, mobile: 2 } }: Pro
             <SwiperSlide>Slide 6</SwiperSlide>
             <SwiperSlide>Slide 7</SwiperSlide>
             <SwiperSlide>Slide 8</SwiperSlide>
-          </>
+          </div>
         )}
       </Swiper>
     </>

@@ -2,6 +2,7 @@ import portfolio1 from 'assets/images/portfolio1.jpg';
 import portfolio2 from 'assets/images/portfolio2.jpg';
 import portfolio3 from 'assets/images/portfolio3.jpg';
 import { Features, Techs } from 'enums';
+import React from 'react';
 
 export const portfolio = {
   name: 'Portfolio',

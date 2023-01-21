@@ -8,7 +8,9 @@ const Layout = () => {
     <>
       <NavigationBar />
       <WhatsAppButton />
+
       <Outlet />
+
       <AppBg />
     </>
   );

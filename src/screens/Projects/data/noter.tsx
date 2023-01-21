@@ -2,6 +2,7 @@ import { Features, Techs } from 'enums';
 import noter1 from 'assets/images/noter1.jpg';
 import noter2 from 'assets/images/noter2.jpg';
 import noter3 from 'assets/images/noter3.jpg';
+import React from 'react';
 
 export const noter = {
   name: 'Noter',

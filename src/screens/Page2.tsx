@@ -1,4 +1,5 @@
 import Gallery from '../components/imageList';
+import React from 'react';
 
 const Page2 = () => (
   <div>

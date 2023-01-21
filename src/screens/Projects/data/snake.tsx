@@ -2,6 +2,7 @@ import { Features, Techs } from 'enums';
 import snake1 from 'assets/images/snake1.jpg';
 import snake2 from 'assets/images/snake2.jpg';
 import snake3 from 'assets/images/snake3.jpg';
+import React from 'react';
 
 export const snake = {
   name: 'Snake',

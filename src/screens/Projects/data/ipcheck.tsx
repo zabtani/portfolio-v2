@@ -2,6 +2,7 @@ import ipcheck1 from 'assets/images/ipcheck1.jpg';
 import ipcheck2 from 'assets/images/ipcheck2.jpg';
 import ipcheck3 from 'assets/images/ipcheck3.jpg';
 import { Features, Techs } from 'enums';
+import React from 'react';
 
 export const ipcheck = {
   name: 'IP-check',

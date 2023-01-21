@@ -2,6 +2,7 @@ import forecast1 from 'assets/images/forecast1.jpg';
 import forecast2 from 'assets/images/forecast2.jpg';
 import forecast3 from 'assets/images/forecast3.jpg';
 import { Features, Techs } from 'enums';
+import React from 'react';
 
 export const forecast = {
   name: 'Forecast',

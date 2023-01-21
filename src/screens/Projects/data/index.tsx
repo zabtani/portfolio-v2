@@ -7,6 +7,7 @@ import { portfolio } from './portfolio';
 import { shop } from './shop';
 import { snake } from './snake';
 import { wall } from './wall';
+import React from 'react';
 
 export interface ProjectData {
   name: string;

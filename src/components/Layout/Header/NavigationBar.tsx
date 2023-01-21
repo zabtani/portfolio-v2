@@ -83,7 +83,7 @@ const NavigationBar = () => {
               }}
             >
               {pages.map(({ name, path }) => (
-                <Link to={path}>
+                <Link key={name} to={path}>
                   <MenuItem key={name} onClick={handleCloseNavMenu}>
                     <Typography textAlign="center">{name}</Typography>
                   </MenuItem>
@@ -112,7 +112,7 @@ const NavigationBar = () => {
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
             {pages.map(({ name, path }) => (
-              <Link to={path}>
+              <Link key={name} to={path}>
                 <Button
                   key={name}
                   onClick={handleCloseNavMenu}

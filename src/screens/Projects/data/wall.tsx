@@ -2,6 +2,7 @@ import wall1 from 'assets/images/wall1.jpg';
 import wall2 from 'assets/images/wall2.jpg';
 import wall3 from 'assets/images/wall3.jpg';
 import { Features, Techs } from 'enums';
+import React from 'react';
 
 export const wall = {
   name: 'Wall',
