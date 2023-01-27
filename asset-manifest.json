@@ -1,31 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-v2/static/css/main.c407e8d0.css",
-    "main.js": "/portfolio-v2/static/js/main.4986ff94.js",
-    "static/media/wall1.jpg": "/portfolio-v2/static/media/wall1.730a7e9594cccd537797.jpg",
-    "static/media/wall2.jpg": "/portfolio-v2/static/media/wall2.6a392558d993e6ad7948.jpg",
-    "static/media/wall3.jpg": "/portfolio-v2/static/media/wall3.de7d74a3ea9009dec333.jpg",
-    "static/media/shop1.jpg": "/portfolio-v2/static/media/shop1.2def3dc21be950cd9161.jpg",
-    "static/media/shop3.jpg": "/portfolio-v2/static/media/shop3.ca19ffd218f128b8cd38.jpg",
-    "static/media/ipcheck1.jpg": "/portfolio-v2/static/media/ipcheck1.0f2caee8868a33fb1b9a.jpg",
-    "static/media/portfolio2.jpg": "/portfolio-v2/static/media/portfolio2.ac4639f3b93b1a9c8b2c.jpg",
-    "static/media/shop2.jpg": "/portfolio-v2/static/media/shop2.e097f0ee6f4af43f0109.jpg",
-    "static/media/ipcheck3.jpg": "/portfolio-v2/static/media/ipcheck3.e43783bd63915ebb4769.jpg",
-    "static/media/ipcheck2.jpg": "/portfolio-v2/static/media/ipcheck2.7910f9658b8941e48252.jpg",
-    "static/media/forecast1.jpg": "/portfolio-v2/static/media/forecast1.d362f5e6b6d802453883.jpg",
-    "static/media/noter1.jpg": "/portfolio-v2/static/media/noter1.21d1955ed5b0d29f9ec2.jpg",
-    "static/media/snake1.jpg": "/portfolio-v2/static/media/snake1.7d73e26e9bf33d0a4d8d.jpg",
-    "static/media/forecast3.jpg": "/portfolio-v2/static/media/forecast3.18ac98c4ca4f13049ba1.jpg",
-    "static/media/portfolio3.jpg": "/portfolio-v2/static/media/portfolio3.27e129dea181d9992e2e.jpg",
-    "static/media/snake2.jpg": "/portfolio-v2/static/media/snake2.1883c778f7b5667d195a.jpg",
-    "static/media/portfolio1.jpg": "/portfolio-v2/static/media/portfolio1.aeafa7c1d3dbb911fc9d.jpg",
-    "static/media/noter2.jpg": "/portfolio-v2/static/media/noter2.c0f59564f504cf4ce28b.jpg",
-    "static/media/noter3.jpg": "/portfolio-v2/static/media/noter3.deeb083ba818867d4611.jpg",
-    "static/media/colorgame3.jpg": "/portfolio-v2/static/media/colorgame3.ffd6453e76d996022ce5.jpg",
-    "static/media/snake3.jpg": "/portfolio-v2/static/media/snake3.fe7835fb89a1b0678b47.jpg",
-    "static/media/forecast2.jpg": "/portfolio-v2/static/media/forecast2.39795dc35fdf8cc03289.jpg",
-    "static/media/colorgame1.jpg": "/portfolio-v2/static/media/colorgame1.536e660cd9d416bea74c.jpg",
-    "static/media/colorgame2.jpg": "/portfolio-v2/static/media/colorgame2.2fe626101c0212fd1d36.jpg",
+    "main.css": "/portfolio-v2/static/css/main.d949fc71.css",
+    "main.js": "/portfolio-v2/static/js/main.b6da3132.js",
     "static/media/npm.svg": "/portfolio-v2/static/media/npm.0d44358eda8e585ec1b472792728c4d7.svg",
     "static/media/redux.svg": "/portfolio-v2/static/media/redux.aa8118377022a09f1595711b6df2d8eb.svg",
     "static/media/html.svg": "/portfolio-v2/static/media/html.0b1894a46202bcd24aad4b1a1f296e73.svg",
@@ -39,11 +15,11 @@
     "static/media/mui.svg": "/portfolio-v2/static/media/mui.e1fe3d8116877c4d872e6b7669fe6dda.svg",
     "static/media/react.svg": "/portfolio-v2/static/media/react.93223fdbd040c089ab0b421ac977437e.svg",
     "static/media/css.svg": "/portfolio-v2/static/media/css.710779499563144010a7d6ef86a4ad3a.svg",
-    "main.c407e8d0.css.map": "/portfolio-v2/static/css/main.c407e8d0.css.map",
-    "main.4986ff94.js.map": "/portfolio-v2/static/js/main.4986ff94.js.map"
+    "main.d949fc71.css.map": "/portfolio-v2/static/css/main.d949fc71.css.map",
+    "main.b6da3132.js.map": "/portfolio-v2/static/js/main.b6da3132.js.map"
   },
   "entrypoints": [
-    "static/css/main.c407e8d0.css",
-    "static/js/main.4986ff94.js"
+    "static/css/main.d949fc71.css",
+    "static/js/main.b6da3132.js"
   ]
 }
