@@ -1,14 +1,20 @@
 {
   "files": {
     "main.css": "/portfolio-v2/static/css/main.d949fc71.css",
-    "main.js": "/portfolio-v2/static/js/main.b6da3132.js",
+    "main.js": "/portfolio-v2/static/js/main.814d5c5d.js",
+    "static/media/mainButton.svg": "/portfolio-v2/static/media/mainButton.a7b74f2bc59a09cd9e59c8be07e8fa8f.svg",
     "static/media/npm.svg": "/portfolio-v2/static/media/npm.0d44358eda8e585ec1b472792728c4d7.svg",
     "static/media/redux.svg": "/portfolio-v2/static/media/redux.aa8118377022a09f1595711b6df2d8eb.svg",
     "static/media/html.svg": "/portfolio-v2/static/media/html.0b1894a46202bcd24aad4b1a1f296e73.svg",
     "static/media/js.svg": "/portfolio-v2/static/media/js.04ca7b42e4f07aa7df75cd11dbb3f78c.svg",
+    "static/media/projects.svg": "/portfolio-v2/static/media/projects.c6e05cdff932e9262145cce039a8e5cf.svg",
     "static/media/mobx.svg": "/portfolio-v2/static/media/mobx.7fd5ab8a422c9a966a95b910e55cd75b.svg",
+    "static/media/about.svg": "/portfolio-v2/static/media/about.01f60ed0478c604c0012c384a13a2f88.svg",
+    "static/media/linkden.svg": "/portfolio-v2/static/media/linkden.7f4c4fdda923abb560dde96caf80a2fd.svg",
+    "static/media/contact.svg": "/portfolio-v2/static/media/contact.d5c3d9939b0875143fb292e3dea7de90.svg",
     "static/media/typescript.svg": "/portfolio-v2/static/media/typescript.075077b21438450d1caa58c6dbd5284e.svg",
     "static/media/github.svg": "/portfolio-v2/static/media/github.a21339870e4875785d2e4dfa31ed76a4.svg",
+    "static/media/resume.svg": "/portfolio-v2/static/media/resume.9bdafd163d7b876a61f529d32b76f424.svg",
     "index.html": "/portfolio-v2/index.html",
     "static/media/git.svg": "/portfolio-v2/static/media/git.69718f8d484be5a011508e49794c1916.svg",
     "static/media/firebase.svg": "/portfolio-v2/static/media/firebase.5684b28ef4e5da5722edfc38db6c2465.svg",
@@ -16,10 +22,10 @@
     "static/media/react.svg": "/portfolio-v2/static/media/react.93223fdbd040c089ab0b421ac977437e.svg",
     "static/media/css.svg": "/portfolio-v2/static/media/css.710779499563144010a7d6ef86a4ad3a.svg",
     "main.d949fc71.css.map": "/portfolio-v2/static/css/main.d949fc71.css.map",
-    "main.b6da3132.js.map": "/portfolio-v2/static/js/main.b6da3132.js.map"
+    "main.814d5c5d.js.map": "/portfolio-v2/static/js/main.814d5c5d.js.map"
   },
   "entrypoints": [
     "static/css/main.d949fc71.css",
-    "static/js/main.b6da3132.js"
+    "static/js/main.814d5c5d.js"
   ]
 }
